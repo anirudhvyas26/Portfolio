@@ -7,9 +7,9 @@ const Navbar = () => {
       <div className="wrapper">
         <span>Anirudh </span>
         <div className="social">
-          {/* <a href="#"> <img src="/instagram.png" alt="" /></a>
+          <a href="#"> <img src="/instagram.png" alt="" /></a>
           <a href="#"> <img src="youtube.png" alt=""/></a>
-          <a href="#"> <img src="dribble.png" alt="" /></a> */}
+          <a href="#"> <img src="dribbble.png" alt="" /></a>
         </div>
       </div>
     </div>
