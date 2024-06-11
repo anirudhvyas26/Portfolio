@@ -3,9 +3,9 @@
 const ToggleButton = ({setOpen}) => {
   return (
     <button onClick={()=>setOpen((prev)=> !prev)}>
-     Button
+      Button
     </button>
   )
-}
+};
 
-export default ToggleButton
+export default ToggleButton;

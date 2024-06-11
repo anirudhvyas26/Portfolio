@@ -1,5 +1,5 @@
 import "./sidebar.scss";
-import ToggleButton from "./toggleButton/ToggleButton";
+import ToggleButton from "./toggleButton/toggleButton";
 import Links from "./links/Links";
 import { useState } from "react";
 import { delay, motion } from "framer-motion";
@@ -26,7 +26,7 @@ const Sidebar = () => {
   return (
     <motion.div className="sidebar" animate={open ? "open" : "closed"}>
       <motion.div className="bg" variants={variants}>
-       Links 
+      < Links />
       </motion.div>
       <ToggleButton setopen={setOpen} />
     </motion.div>
