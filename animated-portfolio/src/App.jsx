@@ -28,6 +28,9 @@ const App = () => {
       <section id="Contact">
         <Contact />
       </section>
+      <section>
+        about
+      </section>
       {/*<Test><><Test</>*/}
     </div>
   );
