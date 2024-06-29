@@ -7,6 +7,7 @@ import Hero from "./components/navbar/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
+import About from "./components/about/About";
 const App = () => {
   return (
     <div>
@@ -28,9 +29,11 @@ const App = () => {
       <section id="Contact">
         <Contact />
       </section>
-      <section>
-        about
+      <About>
+      <section id="About">
+        About
       </section>
+      </About>
       {/*<Test><><Test</>*/}
     </div>
   );

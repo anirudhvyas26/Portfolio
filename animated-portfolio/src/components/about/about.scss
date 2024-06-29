@@ -1,0 +1,60 @@
+
+.about {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 20px;
+    padding: 20px;
+
+    border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+  @keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+  .imageContainer {
+    display: grid; // Ensure this container uses grid properties
+    justify-items: center; // Center items horizontally
+    align-items: center; // Center items vertically
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid grey;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    &:hover {
+      transform: scale(1.4);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+  }
+  h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    font-size: 1.5em;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-resume{
+padding: 25px 45px;
+border-radius: 50px;
+background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%) ;
+cursor: pointer;
+}
+
+}
+
+
