@@ -53,7 +53,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Wtriting</h2>
+          <h2>Writing</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
             totam aliquid quos molestiae, maxime deserunt perferendis
@@ -66,7 +66,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Wtriting</h2>
+          <h2>Writing</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
             totam aliquid quos molestiae, maxime deserunt perferendis
@@ -79,7 +79,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Wtriting</h2>
+          <h2>Writing</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
             totam aliquid quos molestiae, maxime deserunt perferendis

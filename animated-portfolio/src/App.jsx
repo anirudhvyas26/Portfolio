@@ -29,11 +29,11 @@ const App = () => {
       <section id="Contact">
         <Contact />
       </section>
-      <About>
+     
       <section id="About">
-        About
+        <About type="About"/>
       </section>
-      </About>
+
       {/*<Test><><Test</>*/}
     </div>
   );
